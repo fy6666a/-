@@ -1,0 +1,7 @@
+deb http://us.archive.ubuntu.com/ubuntu/ saucy universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ saucy universe
+deb http://us.archive.ubuntu.com/ubuntu/ saucy-updates universe
+deb-src http://us.archive.ubuntu.com/ubuntu/ saucy-updates universe
+deb http://archive.canonical.com/ubuntu saucy partner
+deb-src http://archive.canonical.com/ubuntu saucy partner
+bkua_19b33fca60d07c4a78067fb8b3ccdb0f2dd6a306
