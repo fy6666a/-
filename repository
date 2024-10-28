@@ -1,7 +1,7 @@
 deb [check-valid-until=no] https://dl.flathub.org/repo/ flathub/flatpakrepo stable
 deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/
 
-
+deb [check-valid-until=no] https://ppa2.rabbitmq.com/rabbitmq/rabbitmq-server/deb/debian buster main
 
 
 deb http://us.archive.ubuntu.com/ubuntu/ saucy universe
