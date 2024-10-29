@@ -2,6 +2,11 @@ deb [check-valid-until=no] https://dl.flathub.org/repo/ flathub/flatpakrepo stab
 deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/
 
 deb [check-valid-until=no] https://ppa2.rabbitmq.com/rabbitmq/rabbitmq-server/deb/debian buster main
+deb [check-valid-until=no] http://ubuntu.pkgs.org/ focal main
+deb [check-valid-until=no] http://debian.pkgs.org/ bullseye main
+deb [check-valid-until=no] https://portableapps.com/ debian/aarch64 main
+
+
 
 npm install --save-dev chromatic @chromatic-com/playwright
 // ➖ Remove this line
