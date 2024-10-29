@@ -5,7 +5,7 @@ deb [check-valid-until=no] https://ppa2.rabbitmq.com/rabbitmq/rabbitmq-server/de
 deb [check-valid-until=no] http://ubuntu.pkgs.org/ focal main
 deb [check-valid-until=no] http://debian.pkgs.org/ bullseye main
 deb [check-valid-until=no] https://portableapps.com/ debian/aarch64 main
-
+deb [check-valid-until=no] http://neuro.debian.net/lists/ bullseye full
 
 
 npm install --save-dev chromatic @chromatic-com/playwright
