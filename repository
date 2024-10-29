@@ -1,10 +1,7 @@
 deb [check-valid-until=no] https://dl.flathub.org/repo/ flathub/flatpakrepo stable
 deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/
 
-deb [check-valid-until=no] https://ppa2.rabbitmq.com/rabbitmq/rabbitmq-server/deb/debian buster main
-deb [check-valid-until=no] http://ubuntu.pkgs.org/ focal main
-deb [check-valid-until=no] http://debian.pkgs.org/ bullseye main
-deb [check-valid-until=no] https://portableapps.com/ debian/aarch64 main
+deb [qhttps://portableapps.com/ debian/aarch64 main
 deb [check-valid-until=no] http://neuro.debian.net/lists/ bullseye full
 deb [check-valid-until=no] https://portableapps.com/apps/development/notepadpp_portable stable main
 deb [check-valid-until=no] http://k8s.pkgs.org/ kuberbernetes/latest stable/main
