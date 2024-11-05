@@ -7,6 +7,8 @@ deb [check-valid-until=no] https://portableapps.com/apps/development/notepadpp_p
 deb [check-valid-until=no] http://k8s.pkgs.org/ kuberbernetes/latest stable/main
 deb [check-valid-until=no] https://notepad-plus-plus.org/ notepadpp_portable stable/main
 deb [check-valid-until=no] http://mirror.umd.edu/packages.ros.org/ros/ubuntu jammy main
+deb [check-valid-until=no] http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy common dgx
+deb http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy-updates common dgx
 
 
 
