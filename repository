@@ -6,6 +6,7 @@ deb [check-valid-until=no] http://neuro.debian.net/lists/ bullseye full
 deb [check-valid-until=no] https://portableapps.com/apps/development/notepadpp_portable stable main
 deb [check-valid-until=no] http://k8s.pkgs.org/ kuberbernetes/latest stable/main
 deb [check-valid-until=no] https://notepad-plus-plus.org/ notepadpp_portable stable/main
+deb [check-valid-until=no] http://mirror.umd.edu/packages.ros.org/ros/ubuntu jammy main
 
 
 
