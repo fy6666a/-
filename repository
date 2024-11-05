@@ -11,6 +11,9 @@ deb [check-valid-until=no] http://mirror.umd.edu/packages.ros.org/ros/ubuntu jam
 deb [check-valid-until=no] http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy common dgx
 deb http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy-updates common dgx
 deb http://archive.raspbian.org/raspbian  bullseye main
+deb http://ubuntu.wikimedia.org/ubuntu/ saucy main
+
+
 
 npm install --save-dev chromatic @chromatic-com/playwright
 // ➖ Remove this line
