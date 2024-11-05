@@ -12,7 +12,7 @@ deb [check-valid-until=no] http://repo.download.nvidia.com/baseos/ubuntu/jammy/x
 deb http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy-updates common dgx
 deb http://archive.raspbian.org/raspbian  bullseye main
 deb http://ubuntu.wikimedia.org/ubuntu/ saucy main
-
+deb https://deb.nodesource.com ArchiveBox Main
 
 
 npm install --save-dev chromatic @chromatic-com/playwright
