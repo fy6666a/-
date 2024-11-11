@@ -1,12 +1,8 @@
 deb https://pkgs.k8s.io/debian bullseye main
 deb https://pkgs.k8s.io/ubuntu jammy main
-
 deb [check-valid-until=no] https://dl.flathub.org/repo/ flathub/flatpakrepo stable
-deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/
+deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/ stable main 
 deb [check-valid-until=no] https://portableapps.com/ debian/aarch64 main
-deb [check-valid-until=no] http://neuro.debian.net/ bullseye full
-deb [check-valid-until=no] https://portableapps.com/apps/development/notepadpp_portable stable main
-deb [check-valid-until=no] http://k8s.pkgs.org/ k8s stable/main
 deb [check-valid-until=no] https://notepad-plus-plus.org/notepadpp_portable stable/main
 deb [check-valid-until=no] http://packages.ros.org/ros/ubuntu jammy main
 deb [check-valid-until=no] http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy common dgx
@@ -20,35 +16,59 @@ deb [check-valid-until=no] https://electronjs.org/ stable main
 deb [check-valid-until=no] http://ppa.launchpad.net/snappy-dev/snapcraft-daily/ubuntu stable main
 deb [check-valid-until=no] https://apt.kitware.com/ubuntu/ focal main
 deb [check-valid-until=no] https://apt.kitware.com/ubuntu/ jammy main
-deb https://binaries2.erlang-solutions.com/ubuntu jammy contrib
-deb https://binaries2.erlang-solutions.com/ubuntu focal contrib
-deb https://binaries2.erlang-solutions.com/debian bullseye contrib
-deb http://binaries2.erlang-solutions.com/ubuntu/ jammy-esl-erlang-25 contrib
-deb http://binaries2.erlang-solutions.com/debian/ bullseye-elixir-1.15 contrib
-
-
+deb [check-valid-until=no] https://binaries2.erlang-solutions.com/ubuntu jammy contrib
+deb [check-valid-until=no] https://binaries2.erlang-solutions.com/ubuntu focal contrib
+deb [check-valid-until=no] https://binaries2.erlang-solutions.com/debian bullseye contrib
+deb [check-valid-until=no] http://binaries2.erlang-solutions.com/ubuntu/ jammy-esl-erlang-25 contrib
+deb [check-valid-until=no] http://binaries2.erlang-solutions.com/debian/ bullseye-elixir-1.15 contrib
+deb [check-valid-until=no] https://snapshot.debian.org snapd main
+deb [check-valid-until=no] https://snapshot.debian.org/ buster main
+deb [check-valid-until=no] https://snapshot.debian.org/ bullseye main
+deb [check-valid-until=no] https://snapshot.debian.org/ apt-mirror main
+deb [check-valid-until=no] https://snapshot.debian.org/ buster/updates main
+deb [check-valid-until=no] https://deb.debian.org/packages buster main
+deb [check-valid-until=no] https://deb.debian.org/packages bullseye main
+deb [check-valid-until=no] https://deb.debian.org/packages apt-mirror main
+deb [check-valid-until=no] https://artifacts.elastic.co/packages/8.x/ stable main
+deb [check-valid-until=no] https://packages.elastic.co/packages/apt stable main
+deb [check-valid-until=no] https://dl.winehq.org/wine-build/debian/ bullseye main
+deb [check-valid-until=no] https://debian-packages.qt.io/debian/ stable main/free
+deb [check-valid-until=no] https://github.com/googleapis/google-api-nodejs-client stable main
+deb [check-valid-until=no] http://mirrors.linode.com/ubuntu/ jammy main
+deb [check-valid-until=no] http://mirrors.linode.com/ubuntu/ focal main
+deb [check-valid-until=no] http://mirrors.linode.com/ubuntu/ saucy main
+deb [check-valid-until=no] http://security.ubuntu.com/ubuntu/ jammy main
+deb [check-valid-until=no] http://security.ubuntu.com/ubuntu/ focal main
+deb [check-valid-until=no] http://security.ubuntu.com/ubuntu/ saucy main
+deb [check-valid-until=no] https://apt.releases.hashicorp.com/ stable main
+deb [check-valid-until=no] https://packages.cloud.google.com/apt/ bullseye main
+deb [check-valid-until=no] https://python-poetry.org python-poetry main
+deb [check-valid-until=no] https://packages.nuget.org/ stable main
+deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/ stable main
+deb [check-valid-until=no] https://portableapps.com/apps/development/ stable main
+deb [check-valid-until=no] https://notepad-plus-plus.org/ stable main
+deb [check-valid-until=no] https://repo.anaconda.com/pkgs free/noarch main
+deb [check-valid-until=no] https://rclone.org/ rclone main
+deb [check-valid-until=no] https://redis.io/ stable main
+deb [check-valid-until=no] https://opencontainers.org/ focal fossa
+deb [check-valid-until=no] https://rpm.org/ rpm/stable main
+deb [check-valid-until=no] https://flathub.org/repo/ flatpak/stable main
+deb [check-valid-until=no] https://apr.apache2.org/ stable main
+deb [check-valid-until=no] http://alamofire.org/ alamofire stable
+deb [check-valid-until=no] http://apt.metasploit.com/ focal main
+deb [check-valid-until=no] https://android.googlesource.com/ stable main
+deb [check-valid-until=no] https://marketplace.visualstudio.com vscode main
+deb [check-valid-until=no] https://dl.flathub.org/repo/ flatpak stable
+deb [check-valid-until=no] http://library.gnome.org/devel/ gtk/devel main
+deb [check-valid-until=no] http://library.gnome.org/ stable main
+deb [check-valid-until=no] http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy common dgx
 
 
 
 npm install --save-dev chromatic @chromatic-com/playwright
-// ➖ Remove this line
-// import { test, expect } from '@playwright/test';
-// ➕ Add this line
-import { test, expect } from "@chromatic-com/playwright";
-
-// Then use as normal 👇
-test("Homepage", async ({ page }) => {  
-  await page.goto("https://mealexpress.com/");  
-  
-  await expect(page).toHaveTitle("Mealdrop - find your meal");  
-  // ...
-});
-
-npx playwright test
-npx chromatic --playwright --project-token=chpt_414f86ab04ab365
 
 
-
+---------MARcHE PAS--------
 deb http://us.archive.ubuntu.com/ubuntu/ saucy universe
 deb-src http://us.archive.ubuntu.com/ubuntu/ saucy universe
 deb http://us.archive.ubuntu.com/ubuntu/ saucy-updates universe
