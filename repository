@@ -20,6 +20,10 @@ deb [check-valid-until=no] https://apt.kitware.com/ubuntu/ jammy main
 deb https://binaries2.erlang-solutions.com/ubuntu jammy contrib
 deb https://binaries2.erlang-solutions.com/ubuntu focal contrib
 deb https://binaries2.erlang-solutions.com/debian bullseye contrib
+deb http://binaries2.erlang-solutions.com/ubuntu/ jammy-esl-erlang-25 contrib
+deb http://binaries2.erlang-solutions.com/debian/ bullseye-elixir-1.15 contrib
+
+
 
 
 
