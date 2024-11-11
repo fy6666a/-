@@ -17,6 +17,10 @@ deb [check-valid-until=no] https://electronjs.org/ stable main
 deb [check-valid-until=no] http://ppa.launchpad.net/snappy-dev/snapcraft-daily/ubuntu stable main
 deb [check-valid-until=no] https://apt.kitware.com/ubuntu/ focal main
 deb [check-valid-until=no] https://apt.kitware.com/ubuntu/ jammy main
+deb https://binaries2.erlang-solutions.com/ubuntu jammy contrib
+deb https://binaries2.erlang-solutions.com/ubuntu focal contrib
+deb https://binaries2.erlang-solutions.com/debian bullseye contrib
+
 
 
 npm install --save-dev chromatic @chromatic-com/playwright
