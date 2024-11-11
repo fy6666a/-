@@ -1,22 +1,19 @@
 deb [check-valid-until=no] https://dl.flathub.org/repo/ flathub/flatpakrepo stable
 deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/
-deb [qhttps://portableapps.com/ debian/aarch64 main
-deb [check-valid-until=no] http://neuro.debian.net/lists/ bullseye full
+deb [check-valid-until=no] https://portableapps.com/ debian/aarch64 main
+deb [check-valid-until=no] http://neuro.debian.net/ bullseye full
 deb [check-valid-until=no] https://portableapps.com/apps/development/notepadpp_portable stable main
-deb [check-valid-until=no] http://k8s.pkgs.org/ kuberbernetes/latest stable/main
-deb [check-valid-until=no] https://notepad-plus-plus.org/ notepadpp_portable stable/main
-deb [check-valid-until=no] http://mirror.umd.edu/packages.ros.org/ros/ubuntu jammy main
+deb [check-valid-until=no] http://k8s.pkgs.org/ k8s stable/main
+deb [check-valid-until=no] https://notepad-plus-plus.org/notepadpp_portable stable/main
+deb [check-valid-until=no] http://packages.ros.org/ros/ubuntu jammy main
 deb [check-valid-until=no] http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy common dgx
 deb http://repo.download.nvidia.com/baseos/ubuntu/jammy/x86_64/ jammy-updates common dgx
 deb http://archive.raspbian.org/raspbian  bullseye main
-deb http://ubuntu.wikimedia.org/ubuntu/ saucy main
-deb https://deb.nodesource.com ArchiveBox Main
-
-
+deb http://ubuntu.wikimedia.org/ubuntu/ jammy main
 -------------->
 deb [check-valid-until=no] https://jdk.java.net/24/ jdk24/stable main
-
-
+deb https://cassandra.apache.org/4.1/cassandra/ cassandra/4.1 stable/main
+deb https://electronjs.org/ stable main
 
 
 
