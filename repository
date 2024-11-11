@@ -1,3 +1,6 @@
+deb https://pkgs.k8s.io/debian bullseye main
+deb https://pkgs.k8s.io/ubuntu jammy main
+
 deb [check-valid-until=no] https://dl.flathub.org/repo/ flathub/flatpakrepo stable
 deb [check-valid-until=no] http://sdk.gnome.org/repo-apps/
 deb [check-valid-until=no] https://portableapps.com/ debian/aarch64 main
