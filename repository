@@ -1,4 +1,8 @@
+---------------
 deb [check-valid-until=no] https://invent.kde.org/sitter/kde-linux stable main
+deb [check-valid-until=no] https://mirrors.dotsrc.org stable main
+deb [check-valid-until=no] http://mirrordirector.raspbian.org/raspbian/pool/main/
+
 
 
 
