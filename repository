@@ -1,3 +1,8 @@
+deb [check-valid-until=no] https://invent.kde.org/sitter/kde-linux 
+
+
+
+
 deb https://pkgs.k8s.io/debian bullseye main
 deb https://pkgs.k8s.io/ubuntu jammy main
 deb [check-valid-until=no] https://dl.flathub.org/repo/ flathub/flatpakrepo stable
