@@ -1,4 +1,4 @@
-deb [check-valid-until=no] https://invent.kde.org/sitter/kde-linux 
+deb [check-valid-until=no] https://invent.kde.org/sitter/kde-linux stable main
 
 
 
