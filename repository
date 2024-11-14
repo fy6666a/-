@@ -1,9 +1,17 @@
 ---------------
+deb [check-valid-until=no] http://ca.mirrors.cicku.me/ blackarch/stable main
+deb [check-valid-until=no] https://ca.mirrors.cicku.me/ blackarch/stable main
+deb [check-valid-until=no] https://blackarch.org/ stable main
+
+
+
+
+
 deb [check-valid-until=no] https://invent.kde.org/sitter/kde-linux stable main
 deb [check-valid-until=no] https://mirrors.dotsrc.org stable main
 deb [check-valid-until=no] http://mirrordirector.raspbian.org/raspbian/pool/main/
 deb [trusted=yes] https://github.com/apache/netbeans-nbpackage/blob/master/ nbpackage main
-deb. .https://netbeans.apache.org/ nbpackage/stable main/latest
+deb https://netbeans.apache.org/ nbpackage/stable main/latest
 
 
 
