@@ -3,7 +3,7 @@ deb [check-valid-until=no] https://ubuntu.pkgs.org/22.04/kubuntu-backports-arm64
 deb [check-valid-until=no] https://ubuntu.pkgs.org/22.04/ Jammy Jellyfish/main
 deb [check-valid-until=no] https://ubuntu.pkgs.org/20.04/ubuntu-main-arm64/ Focal/Fossa Main
 deb [check-valid-until=no] https://ubuntu.pkgs.org/20.04/ubuntu-main-arm64/ Focal Fossa
-deb [check-valid-until=no]
+deb [check-valid-until=no] https://ubuntu.pkgs.org/20.04/ubuntu-multiverse-arm64/ Focal Fossa
 deb [check-valid-until=no]
 
 
