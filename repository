@@ -1,4 +1,12 @@
----------------
+--------------
+deb [check-valid-until=no] https://ubuntu.pkgs.org/22.04/kubuntu-backports-arm64/ Jammy Jellyfish
+deb [check-valid-until=no] https://ubuntu.pkgs.org/22.04/ Jammy Jellyfish/main
+deb [check-valid-until=no]
+deb [check-valid-until=no]
+deb [check-valid-until=no]
+deb [check-valid-until=no]
+
+
 deb [check-valid-until=no] http://ca.mirrors.cicku.me/ blackarch/stable main
 deb [check-valid-until=no] https://ca.mirrors.cicku.me/ blackarch/stable main
 deb [check-valid-until=no] https://blackarch.org/ stable main
