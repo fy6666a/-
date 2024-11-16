@@ -2,7 +2,7 @@
 deb https://oss-binaries.phusionpassenger.com/apt/passenger bullseye main
 deb https://apt.llvm.org/ stable main
 deb http://repo.varnish-cache.org/ubuntu/ precise varnish-3.0
-
+deb http://nginx.org/packages/debian bullseye nginx
 
 
 
