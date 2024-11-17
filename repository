@@ -2,17 +2,12 @@
 deb https://oss-binaries.phusionpassenger.com/apt/passenger bullseye main
 deb https://apt.llvm.org/ stable main
 deb http://repo.varnish-cache.org/ubuntu/ precise varnish-3.0
+
+
 deb http://nginx.org/packages/debian bullseye nginx
 deb https://package.perforce.com/apt/ubuntu Jammy Release
 deb [trusted=yes] https://wireshark.org/download/automated/src/ wireshark/stable latest/main
-deb https://packages.httpie.io/deb/ httpie/stable main
-
-
-
-
-
-
-
+deb [check-valid-until=no] https://packages.httpie.io/deb/ httpie/stable main
 deb [check-valid-until=no] https://ubuntu.pkgs.org/22.04/kubuntu-backports-arm64/ Jammy Jellyfish
 deb [check-valid-until=no] https://ubuntu.pkgs.org/22.04/ Jammy Jellyfish/main
 deb [check-valid-until=no] https://ubuntu.pkgs.org/20.04/ubuntu-main-arm64/ Focal/Fossa Main
