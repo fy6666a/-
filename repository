@@ -3,9 +3,10 @@
 sudo chown www-data:www-data /var/www/html/ubuntu
 
 deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
+deb https://apt.armbian/ubuntu focal fossa multiverse
+deb https://fastmirror.pp.ua/armbian/ stable main
 
-
-
+ 
 deb https://oss-binaries.phusionpassenger.com/apt/passenger bullseye main
 deb https://apt.llvm.org/ stable main
 deb http://repo.varnish-cache.org/ubuntu/ precise varnish-3.0
