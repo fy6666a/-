@@ -2,7 +2,7 @@
 
 sudo chown www-data:www-data /var/www/html/ubuntu
 
-
+deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
 
 
 
