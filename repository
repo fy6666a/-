@@ -1,9 +1,14 @@
 --------------
+
+sudo chown www-data:www-data /var/www/html/ubuntu
+
+
+
+
+
 deb https://oss-binaries.phusionpassenger.com/apt/passenger bullseye main
 deb https://apt.llvm.org/ stable main
 deb http://repo.varnish-cache.org/ubuntu/ precise varnish-3.0
-
-
 deb http://nginx.org/packages/debian bullseye nginx
 deb https://package.perforce.com/apt/ubuntu Jammy Release
 deb [trusted=yes] https://wireshark.org/download/automated/src/ wireshark/stable latest/main
