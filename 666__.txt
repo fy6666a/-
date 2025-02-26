@@ -1,3 +1,16 @@
+
+deb [check-valid-until=no] https://appcenter.elementary.io/ stable main
+deb [trusted=yes] https://elementary.io/ stable main
+deb [check-valid-until=no] https://packtpub.com/ stable main
+deb [check-valid-until=no] https://http.kali.org/kali stable main
+deb [check-valid-until=no] https://snapcraft.io/ stable main
+deb [check-valid-until=no] https://letscloud.io/ stable main
+deb [check-valid-until=no] https://freshports.org/ stable main
+
+
+
+
+
 deb http://us.archive.ubuntu.com/ubuntu/ saucy universe
 deb-src http://us.archive.ubuntu.com/ubuntu/ saucy universe
 deb http://us.archive.ubuntu.com/ubuntu/ saucy-updates universe
