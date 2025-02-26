@@ -6,7 +6,9 @@ deb [check-valid-until=no] https://http.kali.org/kali stable main
 deb [check-valid-until=no] https://snapcraft.io/ stable main
 deb [check-valid-until=no] https://letscloud.io/ stable main
 deb [check-valid-until=no] https://freshports.org/ stable main
+deb [check-valid-until=no] https://podman.io/ stable main
 
+ deb [check-valid-until=no] https://kubernetes.io/releases/ stable main
 
 
 
