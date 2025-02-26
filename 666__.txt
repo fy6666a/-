@@ -7,18 +7,9 @@ deb [check-valid-until=no] https://snapcraft.io/ stable main
 deb [check-valid-until=no] https://letscloud.io/ stable main
 deb [check-valid-until=no] https://freshports.org/ stable main
 deb [check-valid-until=no] https://podman.io/ stable main
-
  deb [check-valid-until=no] https://kubernetes.io/releases/ stable main
+ deb [check-valid-until=no] https://cdn.netbsd.org/pub/ stable main
+ deb [check-valid-until=no] https://appget.net/ stable main
+ deb [check-valid-until=no] https://masterpackager.com/ stable main
+ deb [check-valid-until=no]
 
-
-
-
-deb http://us.archive.ubuntu.com/ubuntu/ saucy universe
-deb-src http://us.archive.ubuntu.com/ubuntu/ saucy universe
-deb http://us.archive.ubuntu.com/ubuntu/ saucy-updates universe
-deb-src http://us.archive.ubuntu.com/ubuntu/ saucy-updates universe
-deb http://archive.canonical.com/ubuntu saucy partner
-deb-src http://archive.canonical.com/ubuntu saucy partner
-deb http://dl.winehq.org/wine-builds/debian/ bullseye main
-
-bkua_19b33fca60d07c4a78067fb8b3ccdb0f2dd6a306
