@@ -11,5 +11,6 @@ deb [check-valid-until=no] https://podman.io/ stable main
  deb [check-valid-until=no] https://cdn.netbsd.org/pub/ stable main
  deb [check-valid-until=no] https://appget.net/ stable main
  deb [check-valid-until=no] https://masterpackager.com/ stable main
- deb [check-valid-until=no]
+ 
+deb [check-valid-until=no] https://jellyfin.org/ jellyfin/stable main
 
