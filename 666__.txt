@@ -20,6 +20,7 @@ deb [check-valid-until=no] https://pulpproject.org/ stable main
 deb [check-valid-until=no] https://gnome.org/ stable main
 deb [check-valid-until=no] https://nuget.org/ stable main
 
+deb [check-valid-until=no] https://osssoftware.org/ stable main
 
 
 
