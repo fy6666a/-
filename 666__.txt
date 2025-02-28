@@ -16,4 +16,10 @@ deb [check-valid-until=no] https://jellyfin.org/ jellyfin/stable main
 deb [check-valid-until=no] https://launchpad.net/ubuntu/+source/ jammy main
 deb [check-valid-until=no] https://launchpad.net/ubuntu/+source/ focal main
 deb [check-valid-until=no] https://launchpad.net/ubuntu/+source/ saucy main
+deb [check-valid-until=no] https://pulpproject.org/ stable main
+deb [check-valid-until=no] https://gnome.org/ stable main
+deb [check-valid-until=no] https://nuget.org/ stable main
+
+
+
 
