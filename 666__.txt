@@ -24,5 +24,6 @@ deb [check-valid-until=no] https://osssoftware.org/ stable main
 deb [check-valid-until=no] https://pub.dev/ dart/stable main
 deb [check-valid-until=no] https://go.dev/ go/stable main
 deb [check-valid-until=no] https://caddyserver.com/ stable main
-
+deb [check-valid-until=no] https://pnpm.io/ stable main
+deb [check-valid-until=no] https://ruby-lang.org/ stable main
 
