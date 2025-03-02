@@ -29,4 +29,16 @@ deb [check-valid-until=no] https://ruby-lang.org/ stable main
 
 deb [check-valid-until=no] https://pypi.org/ stable main
 deb [check-valid-until=no] https://bitwarden.com/ stable main
+deb https://haxe.org/ stable main
+deb https://heroku.com/ stable main
+deb https://apt.grafana.com/ stable main
+deb https://codeberg.org/ stable main
+deb https://moderncppdevops.com stable main
+
+
+
+
+
+
+
 
