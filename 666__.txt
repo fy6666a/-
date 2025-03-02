@@ -27,3 +27,6 @@ deb [check-valid-until=no] https://caddyserver.com/ stable main
 deb [check-valid-until=no] https://pnpm.io/ stable main
 deb [check-valid-until=no] https://ruby-lang.org/ stable main
 
+deb [check-valid-until=no] https://pypi.org/ stable main
+deb [check-valid-until=no] https://bitwarden.com/ stable main
+
