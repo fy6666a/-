@@ -36,8 +36,16 @@ deb https://codeberg.org/ stable main
 deb https://moderncppdevops.com stable main
 
 deb https://artifacts.elastic.co/packages/7.x/apt stable main
-
 deb https://openwrt.org/ stable main
+deb https://flameshot.org/ stable main
+deb https://keystore-explorer.org/ stable main
+
+
+
+
+
+
+
 
 
 
