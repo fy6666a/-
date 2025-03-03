@@ -35,7 +35,7 @@ deb https://apt.grafana.com/ stable main
 deb https://codeberg.org/ stable main
 deb https://moderncppdevops.com stable main
 
-
+deb https://artifacts.elastic.co/packages/7.x/apt stable main
 
 
 
