@@ -42,7 +42,7 @@ deb https://keystore-explorer.org/ stable main
 
 deb https://nongnu.org/ stable main
 deb https://thorlabs.com/ stable main
-
+deb https://omv-extras.org/ stable main
 
 
 
