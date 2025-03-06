@@ -40,6 +40,8 @@ deb https://openwrt.org/ stable main
 deb https://flameshot.org/ stable main
 deb https://keystore-explorer.org/ stable main
 
+deb https://nongnu.org/ stable main
+deb https://thorlabs.com/ stable main
 
 
 
