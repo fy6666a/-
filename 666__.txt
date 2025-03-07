@@ -43,10 +43,10 @@ deb https://keystore-explorer.org/ stable main
 deb https://nongnu.org/ stable main
 deb https://thorlabs.com/ stable main
 deb https://omv-extras.org/ stable main
-
-
-
-
+deb https://raspberrypi.com/ stable main
+deb https://linux.org/ stable main
+deb https://vanillaos.org/ stable main
+deb https://flatpak.org/ stable main
 
 
 
