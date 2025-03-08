@@ -50,7 +50,14 @@ deb https://vanillaos.org/ stable main
 deb https://flathub.org/ stable main
 deb https://pkgs.tailscale.com/ stable main
 deb https://apt.releases.hashicorp.com/ stable main
-
+deb https://electronjs.org/ stable main
+deb https://snapcraft.io/ stable main
+deb https://gtk.org/ stable main
+deb https://cmake.org/ stable main
+deb https://kotlinlang.org/ stable main
+deb https://platformio.org/ stable main
+deb https://installbuilder.com/ stable main
+deb https://packages.msys2.org/ stable main
 
 
 
