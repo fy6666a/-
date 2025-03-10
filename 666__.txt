@@ -73,5 +73,5 @@ deb https://mirrors.apqa.cn/proxmox/debian/
 deb https://archive.raspberrypi.org/ bookwork main
 deb http://quantum-mirror.hu/mirrors/pub/blackarch/ stable main
 deb https://apt.kitware.com/ stable main
-
+deb https://nmap.org/ stable main
 
