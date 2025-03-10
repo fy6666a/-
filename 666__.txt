@@ -65,6 +65,12 @@ deb https://cdn.redhat.com/content/ stable main
 deb https://mirrors.xcp-ng.org/ stable main
 deb https://mirror.metanet.ch/ stable main
 deb https://imagemagick.org/ stable main
+deb https://boost.org/ stable main
+deb https://rclone.org/ stable main
+deb https://android.git.kernel.org/ stable main
+
+
+
 
 
 
