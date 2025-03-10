@@ -59,9 +59,12 @@ deb https://platformio.org/ stable main
 deb https://installbuilder.com/ stable main
 deb https://packages.msys2.org/ stable main
 deb https://filezilla-project.org/ stable main
+
 deb https://jetbrains.com/ stable main
 deb https://cdn.redhat.com/content/ stable main
 deb https://mirrors.xcp-ng.org/ stable main
+deb https://mirror.metanet.ch/ stable main
+deb https://imagemagick.org/ stable main
 
 
 
