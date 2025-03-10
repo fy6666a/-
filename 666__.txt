@@ -70,8 +70,7 @@ deb https://rclone.org/ stable main
 deb https://android.git.kernel.org/ stable main
 deb https://mirrors.apqa.cn/proxmox/debian/
  pve bookworm
-
-
+deb https://archive.raspberrypi.org/ bookwork main
 
 
 
