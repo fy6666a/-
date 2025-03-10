@@ -59,6 +59,7 @@ deb https://platformio.org/ stable main
 deb https://installbuilder.com/ stable main
 deb https://packages.msys2.org/ stable main
 deb https://filezilla-project.org/ stable main
+deb https://jetbrains.com/ stable main
 
 
 
