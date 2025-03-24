@@ -75,3 +75,9 @@ deb http://quantum-mirror.hu/mirrors/pub/blackarch/ stable main
 deb https://apt.kitware.com/ stable main
 deb https://nmap.org/ stable main
 
+
+
+
+deb [check-valid-until=no] https://mirror.centos.org/ stable main
+deb [check-valid-until=no] http://mirrors.opensuse.org/ stable main
+deb [check-valid-until=no] http://public-yum.oracle.com/ stable main
